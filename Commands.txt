@@ -7,3 +7,8 @@ git commit
 git commit -m "message"
 
 git diff //see difference
+
+git log // see history
+git log --oneline //shorten log
+git log -p //all different changes : q for quit
+git help log //manual
