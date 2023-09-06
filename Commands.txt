@@ -17,7 +17,7 @@ git rebase -i --root //edit log
 
 git branch <name> //creates new branch
 git branch //see branches
-git switch <name of branch> //switch to branch
+git switch <branch name> //switch to branch
+git branch -d <branch name> //deletes branch 
 
-
-new branch
+git merge <branch name>
