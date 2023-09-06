@@ -12,3 +12,12 @@ git log // see history
 git log --oneline //shorten log
 git log -p //all different changes : q for quit
 git help log //manual
+
+git rebase -i --root //edit log
+
+git branch <name> //creates new branch
+git branch //see branches
+git <name of branch> //switch to branch
+
+
+new branch
