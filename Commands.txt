@@ -1,0 +1,9 @@
+git init 
+
+git add
+
+git commit
+
+git commit -m "message"
+
+git diff //see difference
