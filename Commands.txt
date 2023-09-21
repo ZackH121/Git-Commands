@@ -1,3 +1,41 @@
+/*
+Goal: Determine which cards are face-down cards in this final pile, and in a particular order
+
+set of cards laid out in an n(row) by m(column) grid
+Some are face up, and others are face down
+
+
+Four Types of Flips:
+-Top Flip
+-Btm Flip
+-Left Flip
+-Right Flip
+
+series of n+m-2 flips
+
+
+
+Input:
+line containing 2 + ints n m indicating the number of rows and columns in the grid
+
+Each string will be exactly three characters, in the format OSV, where:
+O is the orientation: either 'U' for "face-Up", or 'F' for "face-Down"
+S is the Suit: one of 'C', 'D', 'H', 'S' for "Clubs", "Diamonds", "Hearts", or "Spades", respectively
+V is the face Value: one of '2', ... '9', 'T' (ten), 'J' (Jack), 'Q' (queen), 'K' (King), or 'A' (Ace)
+
+
+Duties
+• OSV string is valid
+• convert each to an int in the range of -52 to +52 (no 0)
+• If a string is not valid, your program must end.
+• Your input must accept upper- or lower-case characters
+•
+
+n + m – 2 the order in which to apply the flips to the grid
+Each character will be either 'T', 'B', 'L' or 'R' corresponding to a top, bottom, left or right flip.
+
+*/
+
 git init 
 
 git add
